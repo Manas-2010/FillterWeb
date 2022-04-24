@@ -32,6 +32,6 @@ function draw() {
     image(moustache, noseX,noseY,50,50)
 }
 
-function takeSnapshot(){
-    save('MyFilterWebAppImage.png');
+function takeSnapshot() {
+    save("MyFilterWebApp.png");
 }
