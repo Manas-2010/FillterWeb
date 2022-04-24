@@ -33,5 +33,9 @@ function draw() {
 }
 
 function takeSnapshot() {
-    save("MyFilterWebApp.png");
+    if (document.getElementById("imgName").value == "" ) {
+        save("MyFilterWebApp.png");
+    } else {
+        save(document.getElementById("imgName").value);
+    }
 }
